@@ -4,4 +4,5 @@ import com.isa.platform.u202124304.monitoring.domain.model.commands.CreateSnapsh
 
 public interface SnapshotCommandService {
     Long createSnapshot(CreateSnapshotCommand command);
+
 }
