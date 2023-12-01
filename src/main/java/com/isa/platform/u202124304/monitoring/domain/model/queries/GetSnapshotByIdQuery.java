@@ -1,4 +1,4 @@
-package com.isa.platform.u202124304.inventory.domain.model.queries;
+package com.isa.platform.u202124304.monitoring.domain.model.queries;
 
 public record GetSnapshotByIdQuery(Long idSnapshot) {
 }

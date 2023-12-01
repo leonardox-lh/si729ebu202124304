@@ -1,8 +1,8 @@
-package com.isa.platform.u202124304.inventory.application.internal.commandservices;
+package com.isa.platform.u202124304.monitoring.application.internal.commandservices;
 
-import com.isa.platform.u202124304.inventory.domain.model.commands.CreateSnapshotCommand;
-import com.isa.platform.u202124304.inventory.domain.services.SnapshotCommandService;
-import com.isa.platform.u202124304.inventory.infrastructure.persistence.jpa.repositories.SnapshotRepository;
+import com.isa.platform.u202124304.monitoring.domain.model.commands.CreateSnapshotCommand;
+import com.isa.platform.u202124304.monitoring.domain.services.SnapshotCommandService;
+import com.isa.platform.u202124304.monitoring.infrastructure.persistence.jpa.repositories.SnapshotRepository;
 
 public class SnapshotCommandServiceImpl implements SnapshotCommandService {
 

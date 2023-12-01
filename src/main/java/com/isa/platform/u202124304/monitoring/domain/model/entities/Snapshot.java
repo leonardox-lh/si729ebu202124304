@@ -1,4 +1,4 @@
-package com.isa.platform.u202124304.inventory.domain.model.entities;
+package com.isa.platform.u202124304.monitoring.domain.model.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

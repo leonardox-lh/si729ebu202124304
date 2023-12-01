@@ -1,4 +1,4 @@
-package com.isa.platform.u202124304.inventory.domain.model.entities;
+package com.isa.platform.u202124304.inventory.domain.model.aggregates;
 
 import com.isa.platform.u202124304.inventory.domain.model.valueobjects.MonitoringLevel;
 import com.isa.platform.u202124304.shared.domain.model.entities.AuditableModel;
@@ -9,9 +9,10 @@ import jakarta.persistence.Id;
 import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 
+
 @Getter
 @Entity
-public class Product extends AuditableModel {
+public class Product /*extends AuditableModel*/ {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -34,6 +35,7 @@ public class Product extends AuditableModel {
         this.serialNumber = serialNumber;
         this.monitoringLevel = monitoringLevel;
     }
+
 
     public Product() {
 
